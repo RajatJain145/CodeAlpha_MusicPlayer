@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player-container {
+  background: rgba(0, 0, 50, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.4);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.now-playing img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.song-info h2, .song-info h3, .song-info p {
+  margin: 5px 0;
+}
+
+.controls button {
+  background-color: #1e3c72;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #27496d;
+}
+
+#progress, #volume {
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.volume {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.rotate {
+  animation: rotate 5s linear infinite;
+}/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player-container {
+  background: rgba(0, 0, 50, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.4);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.now-playing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.now-playing img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 4px solid #00f;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
+
+.song-info h2, .song-info h3, .song-info p {
+  margin: 5px 0;
+}
+
+.controls button {
+  background-color: #1e3c72;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #27496d;
+}
+
+#progress, #volume {
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.volume {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.rotate {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
