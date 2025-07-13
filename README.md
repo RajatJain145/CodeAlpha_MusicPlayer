@@ -1,20 +1,32 @@
-# Calculator
-<!-- Intro -->
-A simple calculator built using HTML, CSS, and JavaScript.  
-It performs basic arithmetic operations: *Addition, Subtraction, Multiplication, and Division*.
+# 🎵 Music Player
 
-## How to Use
+A sleek, responsive **Web Music Player** built using **HTML, CSS, and JavaScript**. Supports play/pause, next/previous, seek bar, volume control, and a scrollable playlist.
 
-- Open index.html in your browser
-- Use the buttons to enter numbers and operations
-- Click = to get the result
+---
 
-## Features
+## ✨ Features
 
-- Responsive UI
-- Clean layout using CSS
-- Basic error handling
+- 🎧 Play / Pause music  
+- ⏭️ Next / Previous song  
+- 📜 Dynamic song list (playlist)  
+- ⏱️ Real-time progress bar with current time and duration  
+- 🔊 Volume control  
+- 📱 Responsive design for mobile and desktop  
+- 📀 Album cover display  
+- 🔁 Auto-play next track  
 
-## Live Demo
+---
 
-[Click here to open the calculator (LINK - 1)](https://RajatJain145.github.io/CodeAlpha_Calculator/)
+## 📸 Preview
+
+[Click Here for Music Player](https://shubham-220305.github.io/CodeAlpha_Music_Player/)
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+
+---
